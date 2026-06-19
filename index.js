@@ -12,10 +12,10 @@ app.use(express.json());
 
 // Database config
 const dbConfig = {
-  host: process.env.example.DB_HOST || '34.50.74.33',
-  port: process.env.example.DB_PORT || 3306,
-  user: process.env.example.DB_USER || 'user_2311522028',
-  database: process.env.example.DB_NAME || 'db_2311522028',
+  host: process.env.DB_HOST || '34.50.74.33',
+  port: process.env.DB_PORT || 3306,
+  user: process.env.DB_USER || 'user_2311522028',
+  database: process.env.DB_NAME || 'db_2311522028',
 };
 
 // Create DB pool
